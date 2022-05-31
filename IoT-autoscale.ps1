@@ -1,4 +1,4 @@
-workflow iotautoscalerprod
+workflow iothubautoscaler
 {
 # Author: Marcin Juda mar.bydg@gmail.com
 
