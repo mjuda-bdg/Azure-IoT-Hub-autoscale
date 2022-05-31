@@ -1,4 +1,4 @@
-workflow IoT-Autoscale
+workflow iotautoscalerprod
 {
 # Author: Marcin Juda mar.bydg@gmail.com
 
@@ -16,19 +16,19 @@ $AzureContext = Set-AzContext -SubscriptionName $AzureContext.Subscription -Defa
 InlineScript{
 
 # Set IoT Hub Resource Group
-$rg = "X"
+$rg = "rg-SharedSvcs-dev-01"
 
 # Set IoT Hub Name
-$hubname = "X"
+$hubname = "iot-hub-dynatrace"
 
 # Set Runbook name
-$runbookName = "X"
+$runbookName = "iotautoscalerprod"
 
 # Set Automation Account Resource Group
-$aa_rg = "X"
+$aa_rg = "rg-SharedSvcs-dev-01"
 
 # Set Automation Account Name
-$automationAccountName = "X"
+$automationAccountName = "aa-northeurope-dev-02"
 
 
 
